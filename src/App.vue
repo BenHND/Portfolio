@@ -1,30 +1,28 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+   
+    {{ projects }}
+
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
-
 export default {
-  name: 'app',
-  components: {
-    Hello
+  data () {
+    return {
+      projects: []
+    }
+  },
+  mounted () {
+    this.$http.get('http://hb-interactive.com/database.json').then((response) => {
+      this.projects = response.data
+    }, (response) => {
+      console.log('error', response)
+    })
   }
 }
 </script>
+
 <style lang="scss">
   @import 'src/assets/scss/custom.scss';
-</style>
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

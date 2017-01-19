@@ -1,0 +1,176 @@
+@import "../../assets/scss/custom";
+
+.about-panel {
+    height: 100%;
+    background-color: $bg-grey;
+    .about-panel__btn_contact {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        cursor: pointer;
+    }
+    .about-panel__btn_projects {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        cursor: pointer;
+    }
+    .about-panel__btn_close {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        width: 3rem;
+        height: 3rem;
+        background-color: $color-main;
+        border: none;
+        cursor: pointer;
+        .arrow {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 3rem;
+            height: 3rem;
+            transform-origin: center;
+            transform: translate3d(-50%,-50%,0) rotate(0deg);
+            transition: all 0.6s;
+            &:before,
+            &:after{
+                content: '';
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 2rem;
+                height: 0.125rem;
+                margin-left: -1rem;
+                background: $white;
+                transform-origin: 50%;
+                transition: all 0.5s ease;
+            }
+            &:before {
+                transform: translateY(0%) rotate(45deg);
+            }
+            &:after {
+                transform: translateY(0%) rotate(-45deg);
+            }
+        }
+        &:hover {
+            .arrow {
+                transform: translate3d(-50%,-50%,0) rotate(360deg);
+                &:before {
+                    transform: translateY(180%) rotate(45deg) scaleX(.35);
+                }
+                &:after {
+                    transform: translateY(-180%) rotate(-45deg) scaleX(.35);
+                }
+            }
+        }
+    }
+    .about-panel__content {
+        position: absolute;
+        bottom: 5rem;
+        padding: 2rem;
+        text-align: center;
+        img {
+            display: block;
+            width: 8.5rem;
+            height: 8.5rem;
+            margin: 0 auto 2rem;
+        }
+        h1 {
+            font-size: 1.75rem;
+            color: $color-grey-light;
+        }
+        h2 {
+            font-size: 1.125rem;
+            color: $color-grey-light;
+            &:after {
+                content: '';
+                display: block;
+                width: 100%;
+                height: 1px;
+                margin: 1.5rem 0;
+                background-color: $color-sep-dark;
+            }
+        }
+        p {
+            margin-bottom: 0;
+            font-size: 0.875rem;
+            color: $color-grey;
+        }
+    }
+    .about-panel__social {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 5rem;
+        line-height: 5rem;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: $color-main;
+        list-style-type: none;
+        li {
+            display: inline-block;
+            margin-right: 1.5rem;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                display: block;
+                text-decoration: none;
+                font-size: 1.25rem;
+                width: 2.5rem;
+                height: 2.5rem;
+                line-height: 2.5rem;
+                border-radius: 50%;
+                background-color: transparent;
+                transition: background-color 0.4s;
+                span {
+                    color: $bg-grey;
+                }
+                &:hover {
+                    background-color: lighten($color-main,5%);
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+
+    .about-panel {
+        .about-panel__content {
+            bottom: 6rem;
+            padding: 4rem;
+            text-align: left;
+            img {
+                width: 12.5rem;
+                height: 12.5rem;
+                margin: 0 auto 5rem;
+            }
+            h1 {
+                font-size: 2.25rem;
+            }
+            h2 {
+                &:after {
+                    margin: 2rem 0;
+                }
+            }
+        }
+        .about-panel__social {
+            height: 6rem;
+            line-height: 6rem;
+            li {
+                a {
+                    width: 3rem;
+                    height: 3rem;
+                    line-height: 3rem;
+                }
+            }
+        }
+    }
+
+}

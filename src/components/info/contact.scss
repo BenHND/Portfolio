@@ -1,0 +1,97 @@
+@import "../../assets/scss/custom";
+
+.contact-panel {
+    height: 100%;
+    background-color: #35363b;
+    .contact-panel__btn_about {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        cursor: pointer;
+    }
+    .contact-panel__content {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 2rem;
+        h2 {
+            font-size: 1.375rem;
+            color: $color-grey-light;
+            margin-bottom: 1rem;
+        }
+        ul {
+            margin-bottom: 1.5rem;
+            padding: 0;
+            list-style-type: none;
+            li {
+                margin-bottom: 0.75rem;
+                strong {
+                    display: block;
+                    float: left;
+                    width: 5.5rem;
+                    line-height: 1.25rem;
+                    text-transform: uppercase;
+                    font-size: 0.75rem;
+                    font-weight: 700;
+                    color: $color-grey-light;
+                }
+                span {
+                    display: block;
+                    margin-left: 6.5rem;
+                    line-height: 1.25rem;
+                    font-size: 0.9375rem;
+                    color: $color-grey;
+                }
+            }
+        }
+        .contact-panel__content_form {
+            label {
+                text-transform: uppercase;
+                color: $color-grey;
+                font-size: 0.75rem;
+            }
+            input,
+            textarea {
+                color: $white !important;
+                background: none !important;
+                border: none !important;
+                border-bottom: 1px solid $color-sep-dark !important;
+                transition: border-color 0.3s;
+                &:focus {
+                    border-color: $color-main !important;
+                }
+            }
+            .contact-message {
+                margin-bottom: 1.5rem;
+            }
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+
+    .contact-panel {
+        .contact-panel__content {
+            padding: 4rem;
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+            }
+            ul {
+                margin-bottom: 3rem;
+            }
+            .contact-panel__content_form {
+                label {
+                    font-size: 0.875rem;
+                }
+                .contact-message {
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+}

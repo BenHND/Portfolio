@@ -12,7 +12,7 @@ var useCssSourceMap = cssSourceMapDev || cssSourceMapProd
 
 module.exports = {
   entry: {
-    app: './src/main.js'
+    app: ['./src/main.js']
   },
   output: {
     path: config.build.assetsRoot,
@@ -33,7 +33,7 @@ module.exports = {
     fallback: [path.join(__dirname, '../node_modules')]
   },
   module: {
-    preLoaders: [
+   /* preLoaders: [
       {
         test: /\.vue$/,
         loader: 'eslint',
@@ -50,7 +50,7 @@ module.exports = {
         ],
         exclude: /node_modules/
       }
-    ],
+    ], */
     loaders: [
       {
         test: /\.vue$/,
@@ -86,9 +86,9 @@ module.exports = {
       }
     ]
   },
-  eslint: {
+ /* eslint: {
     formatter: require('eslint-friendly-formatter')
-  },
+  },*/
   vue: {
     loaders: utils.cssLoaders({ sourceMap: useCssSourceMap }),
     postcss: [

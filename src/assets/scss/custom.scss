@@ -1,1 +1,116 @@
+@import "./variables";
 @import "./bootstrap";
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url($font_path + 'icomoon.eot?6at7fh');
+    src:  url($font_path + 'icomoon.eot?6at7fh#iefix') format('embedded-opentype'),
+    url($font_path + 'icomoon.ttf?6at7fh') format('truetype'),
+    url($font_path + 'icomoon.woff?6at7fh') format('woff'),
+    url($font_path + 'icomoon.svg?6at7fh#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comment:before {
+    content: "\e0b9";
+}
+.icon-face:before {
+    content: "\e87c";
+}
+.icon-list:before {
+    content: "\e896";
+}
+.icon-mail_outline:before {
+    content: "\e0e1";
+}
+.icon-keyboard_arrow_down:before {
+    content: "\e313";
+}
+.icon-keyboard_arrow_left:before {
+    content: "\e314";
+}
+.icon-keyboard_arrow_right:before {
+    content: "\e315";
+}
+.icon-keyboard_arrow_up:before {
+    content: "\e316";
+}
+.icon-favorite:before {
+    content: "\e87d";
+}
+.icon-twitter:before {
+    content: "\f099";
+}
+.icon-facebook:before {
+    content: "\f09a";
+}
+.icon-facebook-f:before {
+    content: "\f09a";
+}
+.icon-github:before {
+    content: "\f09b";
+}
+.icon-linkedin:before {
+    content: "\f0e1";
+}
+@include media-breakpoint-up(xl) {
+    html {
+        font-size: 16px;
+    }
+}
+hr {
+    color: #47494c;
+}
+.btn {
+    font-size: $font-size-sm;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 3px solid;
+    cursor: pointer;
+    span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.btn-primary {
+    background-color: $color-main;
+    border-color: rgba(51, 51, 51, 0.15);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open.dropdown-toggle.btn-primary {
+    background-color: lighten($color-main, 5%);
+    border-color: rgba(51, 51, 51, 0.15);
+}
+textarea:hover,
+input:hover,
+a:hover,
+textarea:active,
+input:active,
+a:active,
+textarea:focus,
+input:focus,
+a:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: none !important;
+    box-shadow: none !important;
+    color: $white;
+}

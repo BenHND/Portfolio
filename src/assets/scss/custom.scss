@@ -68,7 +68,15 @@
 .icon-linkedin:before {
     content: "\f0e1";
 }
+html {
+    font-size: 12px;
+}
 @include media-breakpoint-up(xl) {
+    html {
+        font-size: 14px;
+    }
+}
+@include media-breakpoint-up(xxl) {
     html {
         font-size: 16px;
     }

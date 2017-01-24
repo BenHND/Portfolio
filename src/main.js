@@ -2,9 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 
 import Vue from 'vue'
-
 import VueResource from 'vue-resource'
-
 import App from './App'
 
 Vue.use(VueResource)
@@ -12,7 +10,8 @@ Vue.use(VueResource)
 export const eventBus = new Vue({
     data: {
         showStory: true,
-        showPanel: true
+        showPanel: true,
+        showPreloader: true
     }
 })
 

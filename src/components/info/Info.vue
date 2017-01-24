@@ -1,14 +1,9 @@
 <template>
     <div class="info" :style="fullHeight">
-
         <transition name="slide" mode="out-in">
-
             <about v-if="currentPanel" @switch="currentPanel = $event"></about>
-
             <contact v-else @switch="currentPanel = $event"></contact>
-
         </transition>
-
     </div>
 </template>
 

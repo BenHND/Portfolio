@@ -114,6 +114,7 @@
             top: 50%;
             width: 3.625rem;
             height: 3.625rem;
+            line-height: 3.625rem;
             font-size: 1.875rem;
             color: $bg-grey;
             border: none;
@@ -255,7 +256,7 @@
         .gallery-slide {
             .gallery-slide__btn_story {
                 top: 4rem;
-                right: 4rem;
+                left: 4rem;
             }
             .gallery-slide__btn_prev {
                 left: 4rem;

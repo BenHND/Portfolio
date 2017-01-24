@@ -2,11 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e998abc5-6c8d-467e-aa9c-1ff0bb585938" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/imgs/02-xl - Copie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/imgs/02-xs - Copie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/gallery/GalleryDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/gallery/GalleryStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/imgs/01-xl - Copie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/imgs/01-xs - Copie.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/apple-touch-icon.png" afterPath="$PROJECT_DIR$/static/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/favicon.ico" afterPath="$PROJECT_DIR$/static/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/01-m.jpg" afterPath="$PROJECT_DIR$/static/imgs/01-m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/01-xl.jpg" afterPath="$PROJECT_DIR$/static/imgs/01-xl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/01-xs.jpg" afterPath="$PROJECT_DIR$/static/imgs/01-xs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/02-m.jpg" afterPath="$PROJECT_DIR$/static/imgs/02-m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/02-xl.jpg" afterPath="$PROJECT_DIR$/static/imgs/02-xl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/02-xs.jpg" afterPath="$PROJECT_DIR$/static/imgs/02-xs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/03-m.jpg" afterPath="$PROJECT_DIR$/static/imgs/03-m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/03-xl.jpg" afterPath="$PROJECT_DIR$/static/imgs/03-xl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/03-xs.jpg" afterPath="$PROJECT_DIR$/static/imgs/03-xs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/04-m.jpg" afterPath="$PROJECT_DIR$/static/imgs/04-m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/04-xl.jpg" afterPath="$PROJECT_DIR$/static/imgs/04-xl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/04-xs.jpg" afterPath="$PROJECT_DIR$/static/imgs/04-xs.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/custom.scss" afterPath="$PROJECT_DIR$/src/assets/scss/custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.scss" afterPath="$PROJECT_DIR$/src/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/bootstrap.scss" afterPath="$PROJECT_DIR$/src/assets/scss/bootstrap.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/gallery/Gallery.vue" afterPath="$PROJECT_DIR$/src/components/gallery/Gallery.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/gallery/gallery.scss" afterPath="$PROJECT_DIR$/src/components/gallery/gallery.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/Info.vue" afterPath="$PROJECT_DIR$/src/components/info/Info.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/InfoAbout.vue" afterPath="$PROJECT_DIR$/src/components/info/InfoAbout.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/InfoContact.vue" afterPath="$PROJECT_DIR$/src/components/info/InfoContact.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/about.scss" afterPath="$PROJECT_DIR$/src/components/info/about.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/contact.scss" afterPath="$PROJECT_DIR$/src/components/info/contact.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,28 +57,8 @@
       <file leaf-file-name="Gallery.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/gallery/Gallery.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Info.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/info/Info.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="52" column="5" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoAbout.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/info/InfoAbout.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="360">
+              <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -60,28 +67,18 @@
       <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/info/about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1944">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="324">
+              <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/scss/bootstrap.scss">
+      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/info/contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/scss/custom.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -90,28 +87,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/scss/variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/info/contact.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="73" column="35" lean-forward="false" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+            <state relative-caret-position="288">
+              <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -126,6 +103,11 @@
       <find>fit</find>
       <find>wind</find>
       <find>$</find>
+      <find>currentInde</find>
+      <find>projectsLoa</find>
+      <find>indexx</find>
+      <find>show</find>
+      <find>hide</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,26 +125,27 @@
         <option value="$PROJECT_DIR$/src/components/gallery/GalleryStore.js" />
         <option value="$PROJECT_DIR$/src/components/gallery/prev.svg" />
         <option value="$PROJECT_DIR$/src/components/gallery/Gallery.scss" />
-        <option value="$PROJECT_DIR$/src/components/gallery/GalleryDirective.js" />
         <option value="$PROJECT_DIR$/src/LayoutStore.js" />
-        <option value="$PROJECT_DIR$/src/components/info/contact.scss" />
         <option value="$PROJECT_DIR$/build/webpack.base.conf.js" />
-        <option value="$PROJECT_DIR$/src/components/info/Info.vue" />
         <option value="$PROJECT_DIR$/build/utils.js" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/variables.scss" />
-        <option value="$PROJECT_DIR$/src/components/gallery/gallery.scss" />
-        <option value="$PROJECT_DIR$/src/components/info/about.scss" />
-        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/Nouveau document texte.txt" />
+        <option value="$PROJECT_DIR$/build/webpack.prod.conf.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/custom.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/gallery/GalleryDirective.js" />
+        <option value="$PROJECT_DIR$/src/components/info/InfoAbout.vue" />
+        <option value="$PROJECT_DIR$/src/components/info/Info.vue" />
+        <option value="$PROJECT_DIR$/src/assets/scss/bootstrap.scss" />
         <option value="$PROJECT_DIR$/src/app.scss" />
+        <option value="$PROJECT_DIR$/src/components/gallery/gallery.scss" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/components/gallery/Gallery.vue" />
         <option value="$PROJECT_DIR$/src/components/info/InfoContact.vue" />
-        <option value="$PROJECT_DIR$/Nouveau document texte.txt" />
-        <option value="$PROJECT_DIR$/src/components/info/InfoAbout.vue" />
-        <option value="$PROJECT_DIR$/build/webpack.prod.conf.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/assets/scss/custom.scss" />
+        <option value="$PROJECT_DIR$/src/components/info/contact.scss" />
+        <option value="$PROJECT_DIR$/src/components/info/about.scss" />
       </list>
     </option>
   </component>
@@ -214,8 +197,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,34 +208,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,60 +266,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,11 +381,16 @@
       <workItem from="1484735279267" duration="30601000" />
       <workItem from="1484819052703" duration="14296000" />
       <workItem from="1484836677575" duration="1668000" />
+      <workItem from="1485178715522" duration="15546000" />
+      <workItem from="1485199709093" duration="15525000" />
+      <workItem from="1485249596129" duration="2686000" />
+      <workItem from="1485257228222" duration="808000" />
+      <workItem from="1485259467403" duration="644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198225000" />
+    <option name="totallyTimeSpent" value="233434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,14 +518,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LayoutStore.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/gallery/GalleryStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -676,48 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/gallery/gallery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="196" column="32" lean-forward="false" selection-start-line="196" selection-start-column="31" selection-end-line="196" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/info/InfoContact.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="88" lean-forward="false" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="519" column="0" lean-forward="false" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -768,14 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -783,43 +632,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/gallery/Gallery.vue">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="117">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/gallery/GalleryDirective.js">
+    <entry file="file://$PROJECT_DIR$/src/components/gallery/GalleryDirective.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/gallery/GalleryStore.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/info/Info.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="378">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/info/contact.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/info/InfoAbout.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="73" column="35" lean-forward="false" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="342">
+          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/info/about.scss">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1944">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="882">
+          <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -827,38 +666,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="53" column="10" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/gallery/gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="100" column="45" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/info/InfoContact.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="288">
+          <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/custom.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/gallery/Gallery.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/info/Info.vue">
+    <entry file="file://$PROJECT_DIR$/src/components/info/about.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="5" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="324">
+          <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/info/InfoAbout.vue">
+    <entry file="file://$PROJECT_DIR$/src/components/info/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state relative-caret-position="270">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>

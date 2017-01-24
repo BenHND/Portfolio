@@ -79,6 +79,7 @@ export default {
             hidePanel: false,
             hideDetails: true,
             showPreloader: true,
+            firstLoad: true,
             currentIndex: 0,
             currentName: '',
             currentLikes: '',
@@ -118,7 +119,6 @@ export default {
             this.$http.get('https://portfolio-a199d.firebaseio.com/data.json').then((response) => {
                 this.projects = response.data
                 this.currentProject()
-                this.togglePreloader()
                 this.projectsLoaded = true
             }, (response) => {
                 console.log('error', response);
@@ -137,6 +137,10 @@ export default {
             this.currentUrl = proj.url
             loadedBg.onload = function() {
                  that.currentBackground = this.src
+                 if(that.firstLoad) {
+                    that.togglePreloader()
+                    that.firstLoad = false
+                 }
             }
             loadedBg.src = 'static/imgs/' + proj.background
 

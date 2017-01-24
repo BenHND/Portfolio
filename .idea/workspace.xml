@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e998abc5-6c8d-467e-aa9c-1ff0bb585938" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/gallery/GalleryDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/gallery/GalleryStore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/imgs/01-xl - Copie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/imgs/01-xs - Copie.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/apple-touch-icon.png" afterPath="$PROJECT_DIR$/static/apple-touch-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/favicon.ico" afterPath="$PROJECT_DIR$/static/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/01-m.jpg" afterPath="$PROJECT_DIR$/static/imgs/01-m.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/01-xl.jpg" afterPath="$PROJECT_DIR$/static/imgs/01-xl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/01-xs.jpg" afterPath="$PROJECT_DIR$/static/imgs/01-xs.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/02-m.jpg" afterPath="$PROJECT_DIR$/static/imgs/02-m.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/02-xl.jpg" afterPath="$PROJECT_DIR$/static/imgs/02-xl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/02-xs.jpg" afterPath="$PROJECT_DIR$/static/imgs/02-xs.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/03-m.jpg" afterPath="$PROJECT_DIR$/static/imgs/03-m.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/03-xl.jpg" afterPath="$PROJECT_DIR$/static/imgs/03-xl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/03-xs.jpg" afterPath="$PROJECT_DIR$/static/imgs/03-xs.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/04-m.jpg" afterPath="$PROJECT_DIR$/static/imgs/04-m.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/04-xl.jpg" afterPath="$PROJECT_DIR$/static/imgs/04-xl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/imgs/04-xs.jpg" afterPath="$PROJECT_DIR$/static/imgs/04-xs.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.scss" afterPath="$PROJECT_DIR$/src/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/bootstrap.scss" afterPath="$PROJECT_DIR$/src/assets/scss/bootstrap.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/gallery/Gallery.vue" afterPath="$PROJECT_DIR$/src/components/gallery/Gallery.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/gallery/gallery.scss" afterPath="$PROJECT_DIR$/src/components/gallery/gallery.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/Info.vue" afterPath="$PROJECT_DIR$/src/components/info/Info.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/InfoAbout.vue" afterPath="$PROJECT_DIR$/src/components/info/InfoAbout.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/InfoContact.vue" afterPath="$PROJECT_DIR$/src/components/info/InfoContact.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/about.scss" afterPath="$PROJECT_DIR$/src/components/info/about.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/info/contact.scss" afterPath="$PROJECT_DIR$/src/components/info/contact.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gallery.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gallery.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/gallery/Gallery.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+            <state relative-caret-position="594">
+              <caret line="139" column="25" lean-forward="false" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -67,18 +37,18 @@
       <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/info/about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="30" />
+            <state relative-caret-position="1404">
+              <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/info/contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="594">
+              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -141,11 +111,11 @@
         <option value="$PROJECT_DIR$/src/components/gallery/gallery.scss" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/App.vue" />
-        <option value="$PROJECT_DIR$/src/components/gallery/Gallery.vue" />
         <option value="$PROJECT_DIR$/src/components/info/InfoContact.vue" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/components/info/contact.scss" />
         <option value="$PROJECT_DIR$/src/components/info/about.scss" />
+        <option value="$PROJECT_DIR$/src/components/gallery/Gallery.vue" />
       </list>
     </option>
   </component>
@@ -197,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -271,6 +240,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,11 +356,12 @@
       <workItem from="1485249596129" duration="2686000" />
       <workItem from="1485257228222" duration="808000" />
       <workItem from="1485259467403" duration="644000" />
+      <workItem from="1485261436978" duration="442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233434000" />
+    <option name="totallyTimeSpent" value="233876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,8 +373,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -719,26 +690,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/gallery/Gallery.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/info/about.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="30" />
+        <state relative-caret-position="1404">
+          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/info/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="594">
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/gallery/Gallery.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="139" column="25" lean-forward="false" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
           <folding />
         </state>
       </provider>

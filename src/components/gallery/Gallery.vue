@@ -4,7 +4,7 @@
             <div class="gallery-nav">
                 <div id="js-carousel" class="gallery-nav__content">
                     <a href="#" v-for="(project, index) in projects" @click.stop.prevent="hideDetails=true,currentIndex=index">
-                        <img :src="'static/imgs/' + project.thumb" alt="" :style="elemHeight">
+                        <img :src="'static/imgs/' + project.thumb" :alt="project.name" :style="elemHeight">
                     </a>
                 </div>
                 <button class="gallery-nav__btn_top" :class="topButton ? 'visible' : ''" @click="changeSlide('prev')">
@@ -42,11 +42,11 @@
                             <span class="icon-favorite"></span>
                             <span class="btn__text">{{ currentLikes }}</button></span>
                     </div>
-                    <img class="gallery-slide__image" :src="currentBackground" :style="fullHeight">
+                    <img class="gallery-slide__image" :src="currentBackground" :alt="currentName" :style="fullHeight">
                 </div>
                 <div class="gallery-details" v-else>
                     <div class="gallery-details__panel" :style="fullHeight">
-                        <img :src="currentPicture">
+                        <img :src="currentPicture" :alt="currentName">
                         <h2>{{ currentName }}</h2>
                         <ul>
                             <li class="clearfix"><strong>Solution</strong><span>{{ currentSolution }}</span></li>

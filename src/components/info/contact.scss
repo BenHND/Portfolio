@@ -8,6 +8,7 @@
         top: 2rem;
         left: 2rem;
         cursor: pointer;
+        z-index: 9999;
     }
     .contact-panel__content {
         position: absolute;
@@ -71,9 +72,6 @@
         }
         .contact-message {
             margin-bottom: 1.5rem;
-        }
-        button {
-            width: 100%;
         }
     }
 }

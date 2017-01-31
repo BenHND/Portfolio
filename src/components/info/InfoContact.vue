@@ -30,7 +30,7 @@
                     <label for="contact-message">Message</label>
                     <textarea name="message" class="form-control" id="contact-message" v-model="form.message "></textarea>
                 </div>
-                <button class="btn btn-primary btn-lg" @click="submitForm">{{ submit }}</button>
+                <button class="btn btn-primary btn-lg btn-block" @click="submitForm">{{ submit }}</button>
             </div>
         </div>
     </div>

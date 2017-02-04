@@ -5,6 +5,7 @@
                 <div id="js-carousel" class="gallery-nav__content">
                     <a href="#" v-for="(project, index) in projects" @click.stop.prevent="hideDetails=true,currentIndex=index">
                         <img :src="'static/imgs/' + project.thumb" :alt="project.name" :style="elemHeight">
+                        <span class="type">{{ project.type }}</span>
                     </a>
                 </div>
                 <button class="gallery-nav__btn_top" :class="topButton ? 'visible' : ''" @click="changeSlide('prev')">

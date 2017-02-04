@@ -20,6 +20,19 @@
                     object-fit: cover;
                     font-family: 'object-fit: cover;'
                 }
+                .type {
+                    position: absolute;
+                    top: 1.5rem;
+                    right: 1.5rem;
+                    padding: 0.35rem 0.65rem;
+                    text-transform: uppercase;
+                    font-size: 0.8rem;
+                    font-weight: 700;
+                    color: #fff;
+                    background-color: $color-main;
+                    border-radius: 0.3rem;
+                    z-index: 9999;
+                }
                 &:before {
                     content: '';
                     position: absolute;

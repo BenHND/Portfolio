@@ -198,12 +198,13 @@ export default {
             }
         },
         addLike(index){
-            if(!sessionStorage.getItem(this.state.index)) {
-                let likes = parseInt(this.getLikes)
+            if(!sessionStorage.getItem(this.currentIndex)) {
+                let likes = parseInt(this.projects[this.currentIndex].likes)
+                console.log(likes)
                 let like = String(likes += 1)
-                this.$http.put('https://portfolio-a199d.firebaseio.com/data/' + this.state.index + '/likes.json', like).then((response) => {
-                    sessionStorage.setItem(this.state.index,true)
-                    store.state.projectList[store.state.index].likes = parseInt(like);
+                this.$http.put('https://portfolio-a199d.firebaseio.com/data/' + this.currentIndex + '/likes.json', like).then((response) => {
+                    sessionStorage.setItem(this.currentIndex,true)
+                    this.currentLikes = parseInt(like);
                 }, (response) => {
                     console.log('error')
                 })

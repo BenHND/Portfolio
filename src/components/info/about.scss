@@ -5,22 +5,22 @@
     background-color: $bg-grey;
     .about-panel__btn_contact {
         position: absolute;
-        top: 2rem;
-        left: 2rem;
+        top: 3rem;
+        left: 3rem;
         cursor: pointer;
         z-index: 9999;
     }
     .about-panel__btn_projects {
         position: absolute;
-        top: 2rem;
-        right: 2rem;
+        top: 3rem;
+        right: 3rem;
         cursor: pointer;
         z-index: 9999;
     }
     .about-panel__btn_close {
         position: absolute;
-        top: 2rem;
-        right: 2rem;
+        top: 3rem;
+        right: 3rem;
         width: 3rem;
         height: 3rem;
         background-color: $color-main;
@@ -73,7 +73,7 @@
     .about-panel__content {
         position: absolute;
         bottom: 6rem;
-        padding: 2rem;
+        padding: 3rem;
         text-align: center;
         img {
             display: block;
@@ -108,8 +108,8 @@
         bottom: 0;
         left: 0;
         right: 0;
-        height: 5rem;
-        line-height: 5rem;
+        height: 6rem;
+        line-height: 6rem;
         margin: 0;
         padding: 0;
         text-align: center;
@@ -125,9 +125,9 @@
                 display: block;
                 text-decoration: none;
                 font-size: 1.25rem;
-                width: 2.5rem;
-                height: 2.5rem;
-                line-height: 2.5rem;
+                width: 3rem;
+                height: 3rem;
+                line-height: 3rem;
                 border-radius: 50%;
                 background-color: transparent;
                 transition: background-color 0.4s;
@@ -146,8 +146,6 @@
 
     .about-panel {
         .about-panel__content {
-            bottom: 6rem;
-            padding: 4rem;
             text-align: left;
             img {
                 width: 12.5rem;
@@ -156,22 +154,6 @@
             }
             h1 {
                 font-size: 2.25rem;
-            }
-            h2 {
-                &:after {
-                    margin: 2rem 0;
-                }
-            }
-        }
-        .about-panel__social {
-            height: 6rem;
-            line-height: 6rem;
-            li {
-                a {
-                    width: 3rem;
-                    height: 3rem;
-                    line-height: 3rem;
-                }
             }
         }
     }

@@ -79,8 +79,8 @@
         position: relative;
         .gallery-slide__btn_story {
             position: absolute;
-            top: 2rem;
-            left: 2rem;
+            top: 3rem;
+            left: 3rem;
             transition: opacity 0.4s;
             z-index: 9999;
             &.hide {
@@ -94,14 +94,14 @@
         }
         .gallery-slide__title {
             position: absolute;
-            left: 2rem;
-            right: 2rem;
-            bottom: 2rem;
+            left: 3rem;
+            right: 3rem;
+            bottom: 3rem;
             transition: opacity 0.4s 0.4s, transform 0.4s 0.4s;
             transform: translateY(0);
             z-index: 9999;
             h1 {
-                margin-bottom: 2rem;
+                margin-bottom: 1.5rem;
                 padding-bottom: 1rem;
                 font-weight: 700;
                 color: #fff;
@@ -142,10 +142,10 @@
             }
         }
         .gallery-slide__btn_prev {
-            left: 2rem;
+            left: 3rem;
         }
         .gallery-slide__btn_next {
-            right: 2rem;
+            right: 3rem;
         }
         &:before {
             content: '';
@@ -162,7 +162,7 @@
     .gallery-details {
         .gallery-details__panel {
             background-color: $bg-grey;
-            padding: 2rem;
+            padding: 3rem;
             transition: transform 0.8s;
             transform: translateX(0);
             img {
@@ -183,7 +183,7 @@
                     display: block;
                     width: 100%;
                     height: 1px;
-                    margin: 2rem 0;
+                    margin: 1.5rem 0;
                     background-color: $color-sep-dark;
                 }
             }
@@ -261,33 +261,4 @@
             transform: translateX(100%);
         }
     }
-}
-
-@include media-breakpoint-up(xxl) {
-
-    .gallery {
-        .gallery-slide {
-            .gallery-slide__btn_story {
-                top: 4rem;
-                left: 4rem;
-            }
-            .gallery-slide__btn_prev {
-                left: 4rem;
-            }
-            .gallery-slide__btn_next {
-                right: 4rem;
-            }
-            .gallery-slide__title {
-                left: 4rem;
-                right: 4rem;
-                bottom: 4rem;
-            }
-        }
-        .gallery-details {
-            .gallery-details__panel {
-                padding: 4rem;
-            }
-        }
-    }
-
 }
